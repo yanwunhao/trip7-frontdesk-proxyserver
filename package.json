@@ -1,0 +1,16 @@
+{
+  "name": "https-proxy-server",
+  "version": "1.0.0",
+  "description": "HTTPS proxy server with CORS support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["proxy", "https", "cors", "node"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "proxy": {
+    "target": "http://localhost:8000",
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "ssl": {
+    "keyPath": "/etc/letsencrypt/live/tk2-209-14484.vs.sakura.ne.jp/privkey.pem",
+    "certPath": "/etc/letsencrypt/live/tk2-209-14484.vs.sakura.ne.jp/fullchain.pem"
+  },
+  "cors": {
+    "allowedOrigins": [
+      "https://softusing.co.jp",
+      "https://www.softusing.co.jp",
+      "http://softusing.co.jp",
+      "http://www.softusing.co.jp",
+      "https://yuzawamd.com",
+      "https://www.yuzawamd.com",
+      "http://yuzawamd.com",
+      "http://www.yuzawamd.com"
+    ],
+    "allowCredentials": true,
+    "allowedMethods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    "allowedHeaders": ["Content-Type", "Authorization", "X-Requested-With"]
+  }
+}
