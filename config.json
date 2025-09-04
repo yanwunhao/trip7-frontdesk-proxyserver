@@ -5,8 +5,8 @@
     "host": "0.0.0.0"
   },
   "ssl": {
-    "keyPath": "/etc/letsencrypt/live/tk2-209-14484.vs.sakura.ne.jp/privkey.pem",
-    "certPath": "/etc/letsencrypt/live/tk2-209-14484.vs.sakura.ne.jp/fullchain.pem"
+    "keyPath": "/opt/ssl/tk2-209-14484.vs.sakura.ne.jp/privkey.pem",
+    "certPath": "/opt/ssl/tk2-209-14484.vs.sakura.ne.jp/fullchain.pem"
   },
   "cors": {
     "allowedOrigins": [
