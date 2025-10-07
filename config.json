@@ -17,7 +17,16 @@
       "https://yuzawamd.com",
       "https://www.yuzawamd.com",
       "http://yuzawamd.com",
-      "http://www.yuzawamd.com"
+      "http://www.yuzawamd.com",
+      "https://itschool.co.jp/",
+      "https://www.itschool.co.jp/",
+      "http://itschool.co.jp/",
+      "http://www.itschool.co.jp/",
+      "https://dxai.co.jp/",
+      "https://www.dxai.co.jp/",
+      "http://dxai.co.jp/",
+      "http://www.dxai.co.jp/"
+
     ],
     "allowCredentials": true,
     "allowedMethods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
